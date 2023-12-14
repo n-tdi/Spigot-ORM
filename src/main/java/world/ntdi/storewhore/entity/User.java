@@ -21,4 +21,8 @@ public class User {
     private UUID uuid;
     @DatabaseField
     private int age;
+    @DatabaseField
+    private int level;
+    @DatabaseField
+    private int dignity;
 }
